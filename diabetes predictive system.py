@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 # Loading the Saved model
-loaded_model = pickle.load(open('C:/Users/Prateek Yadav/Desktop/PIMA Diabetes Prediction Using SVM/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Prateek Yadav/Desktop/PIMA Diabetes Prediction Using SVM with Streamlit Deployment/trained_model.sav', 'rb'))
 
 input_data = (7,83,78,26,71,29.3,0.767,36)
 
